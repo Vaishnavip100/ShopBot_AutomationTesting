@@ -126,8 +126,6 @@ Run the following command from the project root:
 mvn test
 ```
 
----
-
 ### 🔹 Using TestNG XML
 
 1. Right-click on `testng.xml`
