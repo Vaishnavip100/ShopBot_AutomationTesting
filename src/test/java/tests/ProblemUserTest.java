@@ -13,15 +13,14 @@ import java.util.List;
 import java.util.Set;
 
 public class ProblemUserTest extends BaseTest {
-
     private ProductPage product;
 
     @BeforeMethod
     public void setupProblemUser() {
-        LoginPage login = new LoginPage(getDriver());
-        login.login("problem_user", config.getPassword());
+        LoginPage login=new LoginPage(getDriver());
+        login.login("problem_user",config.getPassword());
 
-        product = new ProductPage(getDriver());
+        product=new ProductPage(getDriver());
     }
 
     //Verify broken behavior on product listing page (images issue)
