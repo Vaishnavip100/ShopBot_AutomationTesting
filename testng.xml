@@ -1,0 +1,38 @@
+<suite name="ShopBot Suite" parallel="tests" thread-count="2">
+
+    <listeners>
+        <listener class-name="listeners.TestListener"/>
+        <listener class-name="listeners.RetryListener"/>
+    </listeners>
+
+    <test name="Login Tests">
+        <classes>
+            <class name="tests.LoginTest"/>
+        </classes>
+    </test>
+
+    <test name="Product Tests">
+        <classes>
+            <class name="tests.ProductTest"/>
+        </classes>
+    </test>
+
+    <test name="Cart Tests">
+        <classes>
+            <class name="tests.CartTest"/>
+        </classes>
+    </test>
+    
+    <test name="Checkout Tests">
+        <classes>
+            <class name="tests.CheckoutTest"/>
+        </classes>
+    </test>
+    
+    <test name="ProblemUser Tests">
+        <classes>
+            <class name="tests.ProblemUserTest"/>
+        </classes>
+    </test>
+
+</suite>

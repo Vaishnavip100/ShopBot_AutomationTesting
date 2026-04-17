@@ -1,0 +1,8 @@
+base\BasePage.class
+pages\ProductPage.class
+pages\LoginPage.class
+pages\CartPage.class
+pages\CheckoutPage.class
+utils\ConfigReader.class
+utils\ExcelUtil.class
+utils\ExtentManager.class
