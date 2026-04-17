@@ -118,11 +118,15 @@ ShopBot
 
 ## ▶️ How to Run Tests
 
-###🔹 Using Maven
+### 🔹 Using Maven
 
-```bash
+Run the following command from the project root:
+
+```
 mvn test
 ```
+
+---
 
 ### 🔹 Using TestNG XML
 
